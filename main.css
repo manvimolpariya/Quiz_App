@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swapp');
+*{
+   padding: 0;
+   margin: 0;
+}
+body{
+    max-height: 100vh;
+    background: #FFA62B;
+    box-sizing: border-box;
+    font-family:'Baloo Bhai 2',cursive;
+} 
+.container{
+    display: flex;
+   margin-top: 10em;
+}
+h1{
+    text-align: center;
+    padding: 0.4em;
+    color: #DB6300;
+}
+.wrapper{
+    justify-content: center;
+    margin: auto;
+    width: 25em;
+    border-radius: 10px;
+    background:#ffffff;
+}
+.question-display{
+    padding: 1em 1.3em 0em 1.3em;
+    margin-left:1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    font-size: 1.3em;
+    border: 2px solid #DB6300;
+    border-top: none;
+    border-left: none;
+    border-radius: none;
+    border-right: none;
+}
+.answer-container{
+     padding: 0em 0.5em 1.5em 0em;
+}
+.btn{
+    margin: 1em 0em 0em 1.7em;
+    background:transparent;
+    border: 2px solid #DB6300;
+    width: 22em;
+    text-align: left;
+    padding: 0.4em 0.4em 0.4em 1em;
+    border-radius: 1em;
+    font-size: 1em;
+    display: block;
+    font-family: 'Baloo Bhai 2',cursive;
+    cursor: pointer;
+}
+.btn:hover{
+    background: #DB6300;
+    color: #ffffff;
+}
+.next-question{
+    display:flex;
+    margin-bottom: 1em;
+}
+.next{
+    justify-content: center;
+    margin: auto;
+    width: 5em;
+    cursor: pointer;
+    font-size: 1em;
+    color: #ffffff;
+    padding: 0.4em;
+    border-radius: 5px;
+    border:2px solid #DB6300;
+    background: #DB6300;
+}
+.next:hover{
+    background:#ffffff;
+    color: #DB6300;
+    font-size: 1.1em;
+    
+}
+.activered{
+    background: tomato;
+    
+}
+.activegreen{
+    background: mediumseagreen;
+}
+@media screen and (max-width:400px),
+screen and (max-height:640px){
+    .container{
+        display: flex;
+       margin-top: 3em;
+    }
+    .wrapper{
+        justify-content: center;
+        margin: auto;
+        width: 20em;
+        border-radius: 10px;
+        background:#ffffff;
+    }
+    .btn{
+        margin: 1em 0em 0em 1em;
+        background:transparent;
+        border: 2px solid #DB6300;
+        width: 18em;
+        text-align: left;
+        padding: 0.4em 0.4em 0.4em 1em;
+        border-radius: 1em;
+        font-size: 1em;
+        display: block;
+        font-family: 'Baloo Bhai 2',cursive;
+        cursor: pointer;
+    }
+    .btn:hover{
+        background: #DB6300;
+        color: #ffffff;
+    }
+}
